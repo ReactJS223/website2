@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    display:block;
+    display:flex;
     justify-content: center;
     align-items: center;
     background: #23E3C9;
@@ -20,7 +20,7 @@ body{
 .slides{
     width: 100%;
     height: 500px;
-    display:block;
+    display:flex;
 }
 
 .slides input{
