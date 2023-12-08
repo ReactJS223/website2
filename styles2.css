@@ -30,23 +30,21 @@ body{
 
 
 .slide{
-    width: 20%;
+    width: 40%;
     transition: 2s;
 }
 
 .slide img{
-    width: 800px;
-    height: 500px;
+    width: 1000px;
+    height: 600px;
 }
 
 
 .navigation-manual{
-    position: absolute;
     width: 800px;
-    margin-top: -40px;
+    margin-top: -30px;
     display: flex;
     justify-content: center;
-
 }
 
 
