@@ -2,8 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
-    display: flex;
+    display:block;
     justify-content: center;
     align-items: center;
     background: #23E3C9;
@@ -11,7 +10,7 @@ body{
 
 
 .slider{
-    width: 800px;
+    width: 600%;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
@@ -21,7 +20,7 @@ body{
 .slides{
     width: 500%;
     height: 500px;
-    display: flex;
+    display:block;
 }
 
 .slides input{
@@ -73,15 +72,15 @@ body{
 }
 
 #radio2:checked ~ .first{
-    margin-left: -10%;
-}
-
-#radio3:checked ~ .first{
     margin-left: -20%;
 }
 
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
 #radio4:checked ~ .first{
-    margin-left: -30%;
+    margin-left: -60%;
 }
 
 
