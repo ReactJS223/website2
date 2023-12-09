@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     background: #23E3C9;
@@ -15,14 +15,14 @@ body{
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
-    display: block;
+    display: flex;
 }
 
 
 .slides{
     width: 500%;
     height: 500px;
-    display: block;
+    display: flex;
 }
 
 .slides input{
