@@ -15,13 +15,14 @@ body{
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    display: block;
 }
 
 
 .slides{
     width: 500%;
     height: 500px;
-    display: flex;
+    display: block;
 }
 
 .slides input{
